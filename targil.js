@@ -90,6 +90,11 @@ function addToList(book) {
 		var ul = document.getElementById("bookList");
 		ul.appendChild(newElement).style.background = 'magenta';
 		}
+		newElement.onclick = function resetarow() {
+			var li = document.getElementById('bookList');
+			li.lastChild.remove()
+		}
+		}
 }
 function resetal(book) {
 	var ul = document.getElementById("bookList");
