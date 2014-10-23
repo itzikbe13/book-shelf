@@ -98,5 +98,5 @@ function resetal(book) {
 
 function resetarow() {
 var li = document.getElementById("bookList");
-	li.lastChild.innerHTML = '';
+	li.lastChild.remove()
 	}
