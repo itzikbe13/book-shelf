@@ -1,3 +1,13 @@
+var bookslocal;
+if (json.parse(localstorage.getItem(bookslocal)){
+	"[]"
+}
+else {
+	
+}
+}
+}
+
 function Book (bookName, authorName, score) {
 	this.bookName = bookName;
 	this.authorName = authorName;
